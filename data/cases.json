@@ -1,0 +1,69 @@
+{
+    "case_id": 1,
+    "title": "The Missing Diamond",
+    "description": "A valuable diamond has disappeared from the Grand Museum. Four suspects have provided statements about their movements. One alibi is inconsistent.",
+
+    "travel_times": [
+        {
+            "from": "Library",
+            "to": "Gallery",
+            "minutes": 4
+        },
+        {
+            "from": "Library",
+            "to": "Archive",
+            "minutes": 3
+        },
+        {
+            "from": "Library",
+            "to": "Reception",
+            "minutes": 5
+        },
+        {
+            "from": "Gallery",
+            "to": "Archive",
+            "minutes": 7
+        },
+        {
+            "from": "Gallery",
+            "to": "Reception",
+            "minutes": 9
+        },
+        {
+            "from": "Archive",
+            "to": "Reception",
+            "minutes": 8
+        }
+    ],
+
+    "suspects": [
+        {
+            "name": "Director",
+            "from": "Library",
+            "to": "Archive",
+            "departure": "00:04",
+            "arrival": "00:10"
+        },
+        {
+            "name": "Guide",
+            "from": "Archive",
+            "to": "Gallery",
+            "departure": "13:40",
+            "arrival": "13:44"
+        },
+        {
+            "name": "Security",
+            "from": "Reception",
+            "to": "Gallery",
+            "departure": "10:10",
+            "arrival": "10:21"
+        },
+        {
+            "name": "Visitor",
+            "from": "Reception",
+            "to": "Gallery",
+            "departure": "09:04",
+            "arrival": "09:14"
+        }
+    ]
+}
